@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart-anamai</title>
+    <style>
+        /* ส่วนที่เพิ่มเข้ามา: สั่งล้างขอบขาวของ Browser */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ป้องกันไม่ให้มี Scrollbar ซ้อน */
+        }
+        
+        iframe {
+            display: block;       /* แก้ปัญหาขอบขาวเล็กๆ ด้านล่าง */
+            width: 100vw;         /* กว้างเต็มจอแนวนอน */
+            height: 100vh;        /* สูงเต็มจอแนวตั้ง */
+            border: none;         /* ลบขอบเส้น iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbzIlzleVfCLCiHYGrubDVtmRuZYWDwrJoNQAA_pE_Tzlgq_jw8cHM_PDN1y7i4db4c/exec"></iframe>
+</body>
+</html>
